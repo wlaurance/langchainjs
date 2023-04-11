@@ -55,6 +55,7 @@ const entrypoints = {
   "vectorstores/weaviate": "vectorstores/weaviate",
   "vectorstores/mongo": "vectorstores/mongo",
   "vectorstores/mongodb_atlas": "vectorstores/mongodb_atlas",
+  "vectorstores/pgvector": "vectorstores/pgvector",
   "vectorstores/pinecone": "vectorstores/pinecone",
   "vectorstores/qdrant": "vectorstores/qdrant",
   "vectorstores/supabase": "vectorstores/supabase",

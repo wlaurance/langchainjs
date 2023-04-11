@@ -130,6 +130,9 @@
     "vectorstores/mongodb_atlas.cjs",
     "vectorstores/mongodb_atlas.js",
     "vectorstores/mongodb_atlas.d.ts",
+    "vectorstores/pgvector.cjs",
+    "vectorstores/pgvector.js",
+    "vectorstores/pgvector.d.ts",
     "vectorstores/pinecone.cjs",
     "vectorstores/pinecone.js",
     "vectorstores/pinecone.d.ts",
@@ -529,6 +532,7 @@
     "pdf-parse": "1.1.1",
     "peggy": "^3.0.2",
     "pg": "^8.11.0",
+    "pgvector": "*",
     "pickleparser": "^0.1.0",
     "playwright": "^1.32.1",
     "puppeteer": "^19.7.2",
@@ -925,6 +929,11 @@
       "types": "./vectorstores/mongodb_atlas.d.ts",
       "import": "./vectorstores/mongodb_atlas.js",
       "require": "./vectorstores/mongodb_atlas.cjs"
+    },
+    "./vectorstores/pgvector": {
+      "types": "./vectorstores/pgvector.d.ts",
+      "import": "./vectorstores/pgvector.js",
+      "require": "./vectorstores/pgvector.cjs"
     },
     "./vectorstores/pinecone": {
       "types": "./vectorstores/pinecone.d.ts",

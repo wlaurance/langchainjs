@@ -11,6 +11,7 @@ const llms_ai21 = require("langchain/llms/ai21");
 const prompts = require("langchain/prompts");
 const vectorstores_base = require("langchain/vectorstores/base");
 const vectorstores_memory = require("langchain/vectorstores/memory");
+const vectorstores_pgvector = require("langchain/vectorstores/pgvector");
 const vectorstores_prisma = require("langchain/vectorstores/prisma");
 const text_splitter = require("langchain/text_splitter");
 const memory = require("langchain/memory");
